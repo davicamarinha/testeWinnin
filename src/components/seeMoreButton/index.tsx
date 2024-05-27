@@ -6,6 +6,7 @@ interface ISMButton {
 const SeeMoreButton = ({ onClick, disabled }: ISMButton) => {
   return (
     <button
+      data-testid="seeMoreBtn"
       disabled={disabled}
       onClick={onClick}
       className={`${

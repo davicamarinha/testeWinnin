@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chip Tests renders a snapshot 1`] = `
+<div>
+  <div
+    class="text-white text-xs bg-primaryLight rounded-[4px] px-[8px] py-[3px] mr-2 mb-2"
+    role="tag"
+  >
+    teste
+  </div>
+</div>
+`;

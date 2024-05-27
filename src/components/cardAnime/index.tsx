@@ -15,7 +15,10 @@ const CardAnime = ({ label, tags, score, image }: ICAnime) => {
     <div className="w-[317px] h-[270px] rounded-lg overflow-hidden relative mx-2 mb-5">
       <div className="w-[260px] left-[28px] top-[24px] absolute z-20">
         <h3 className="font-bold siz text-white text-2xl mb-3">{label}</h3>
-        <div className="flex flex-1 flex-wrap justify-start">
+        <div
+          className="flex flex-1 flex-wrap justify-start"
+          data-testid="tagsList"
+        >
           {tags?.map((x, index) => (
             <Chip label={x} key={index} />
           ))}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeeMoreButton Tests renders a snapshot 1`] = `
+<div>
+  <button
+    class="bg-asMedium w-full flex flex-1 h-[48px] justify-center items-center rounded-[8px] text-white font-semibold text-xl"
+    data-testid="seeMoreBtn"
+  >
+    <span
+      class="text-3xl mr-4"
+    >
+      +
+    </span>
+     Ver mais
+  </button>
+</div>
+`;
