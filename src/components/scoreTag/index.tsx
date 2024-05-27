@@ -20,6 +20,7 @@ const ScoreTag = ({ value }: ISTag) => {
       className={`px-[8px] py-[3px] rounded-[4px] text-white text-2xl font-normal ${averagScore(
         value
       )}`}
+      data-testid="score"
     >
       {value !== null ? value : 0}%
     </div>

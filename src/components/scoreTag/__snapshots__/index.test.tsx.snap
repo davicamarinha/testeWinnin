@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScoreTag Tests renders a snapshot 1`] = `
+<div>
+  <div
+    class="px-[8px] py-[3px] rounded-[4px] text-white text-2xl font-normal bg-asMedium"
+    data-testid="score"
+  >
+    50
+    %
+  </div>
+</div>
+`;

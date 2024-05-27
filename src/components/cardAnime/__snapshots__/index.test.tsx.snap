@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardAnime Tests renders a snapshot 1`] = `
+<div>
+  <div
+    class="w-[317px] h-[270px] rounded-lg overflow-hidden relative mx-2 mb-5"
+  >
+    <div
+      class="w-[260px] left-[28px] top-[24px] absolute z-20"
+    >
+      <h3
+        class="font-bold siz text-white text-2xl mb-3"
+      >
+        teste
+      </h3>
+      <div
+        class="flex flex-1 flex-wrap justify-start"
+        data-testid="tagsList"
+      >
+        <div
+          class="text-white text-xs bg-primaryLight rounded-[4px] px-[8px] py-[3px] mr-2 mb-2"
+          role="tag"
+        >
+          teste 1
+        </div>
+        <div
+          class="text-white text-xs bg-primaryLight rounded-[4px] px-[8px] py-[3px] mr-2 mb-2"
+          role="tag"
+        >
+          teste 2
+        </div>
+        <div
+          class="text-white text-xs bg-primaryLight rounded-[4px] px-[8px] py-[3px] mr-2 mb-2"
+          role="tag"
+        >
+          teste 3
+        </div>
+      </div>
+    </div>
+    <div
+      class="cardAnimeGradient w-[317px] h-[270px] absolute top-0 left-0 z-10"
+    />
+    <img
+      alt="teste"
+      data-nimg="1"
+      decoding="async"
+      height="270"
+      loading="lazy"
+      src="/_next/image?url=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe9%2F76%2Fa2%2Fe976a29e0ffaefd0c16bc2be934cd9dd.jpg&w=640&q=75"
+      srcset="/_next/image?url=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe9%2F76%2Fa2%2Fe976a29e0ffaefd0c16bc2be934cd9dd.jpg&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe9%2F76%2Fa2%2Fe976a29e0ffaefd0c16bc2be934cd9dd.jpg&w=640&q=75 2x"
+      style="color: transparent;"
+      width="317"
+    />
+    <div
+      class="absolute bottom-2 right-2 z-20"
+    >
+      <div
+        class="px-[8px] py-[3px] rounded-[4px] text-white text-2xl font-normal bg-asMedium"
+        data-testid="score"
+      >
+        50
+        %
+      </div>
+    </div>
+  </div>
+</div>
+`;
