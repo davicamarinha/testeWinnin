@@ -69,7 +69,7 @@ export const AnimeProvider = ({ children }) => {
   // Faz a requisição quando o componente monta
   useEffect(() => {
     fetchAllData(false, { format: "TV" });
-  }, []);
+  }, [fetchAllData]);
 
   useEffect(() => {
     if (searchTerms.format !== "ALL") {
@@ -77,7 +77,7 @@ export const AnimeProvider = ({ children }) => {
     } else {
       fetchAllData(false);
     }
-  }, [searchTerms]);
+  }, [searchTerms, fetchAllData]);
 
   return (
     <AnimeContext.Provider
